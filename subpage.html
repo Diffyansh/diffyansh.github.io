@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My p5.js Sketch</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <h1>My p5.js Sketch</h1>
+    <p>Here's a p5.js sketch I created:</p>
+    <div id="sketch-container"></div>
+</body>
+<script>
+    function setup() {
+        let canvas = createCanvas(400, 400);
+        canvas.parent('sketch-container');
+    }
+
+    function draw() {
+        background(220);
+        
+function setup(){
+  createCanvas(600, 600);
+  background(255, 224, 189)
+  //ellipse(X,  Y,  WIDTH, HEIGHT)
+  noStroke()
+  
+  //bindi
+  fill(156,0,0)
+  ellipse(305,220,50,50)
+  
+  //eyes
+  fill(256,256,256)
+  ellipse (190,300,165,50)
+  ellipse(430,300,165,50)
+  fill(0,0,0)
+  ellipse(190,300,50,50)
+  ellipse(430,300,50,50)
+  
+  //mouth
+  arc(width / 2, height / 1.5, 100, 100, 0, HALF_PI + HALF_PI, PIE);
+  //hairleft
+  fill(85,85,85)
+  ellipse(30,-100,700,700)
+  //hairstreaksleft
+  noFill()
+  stroke(256,256,256,)
+  strokeWeight(3)
+  ellipse(28, -100, 650,650)
+  ellipse(20, -110, 620,620)
+  ellipse(12, -120,590,590)
+  ellipse(4, -130, 560,560)
+  //hairright
+  fill(85,85,85)
+  ellipse(600, -90, 700,700)
+  //hairstreaksright
+  ellipse(610, -100, 670,670)
+  ellipse(620, -110, 640,640)
+  ellipse(630, -120, 610,610)
+  ellipse(640,-130, 580,580) 
+  ellipse(640,-140, 500,500)
+}
+    }
+</script>
+</html>
