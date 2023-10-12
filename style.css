@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.hero {
+    background: url('/Users/divyanshgandhi/Downloads/purple-pastel-gradient-background-soft-vintage/v966-07.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project {
+    background: #f5f5f5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
